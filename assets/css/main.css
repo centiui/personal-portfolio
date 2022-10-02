@@ -1,0 +1,289 @@
+:root {
+    --default-purple: #0D0D29;
+}
+
+@font-face {
+    font-family: 'Made';
+    font-weight: lighter;
+    src: url("../fonts/madelight.otf");
+}
+
+@font-face {
+    font-family: 'Made';
+    font-weight: normal;
+    src: url("../fonts/madereg.otf");
+}
+
+@media only screen and (max-width: 770px) {
+    .nav-link {
+        text-align: center;
+        background-color: #0D0D29;
+        border-radius: 20px;
+        margin-top: 5px
+    }
+
+    .navbar-toggler {
+        background-color: #FFFFFF !important;
+    }
+
+    .pricing-card {
+        margin-top: 10px;
+    }
+
+    .vouch-card {
+        margin-top: 10px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--default-purple) !important;
+}
+
+.hero-content {
+    color: #FFFFFF;
+    font-family: 'Made';
+    font-weight: lighter;
+    max-width: 40rem;
+    align-items: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.hero-start {
+    background-image: url("../img/background4.png") !important;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+}
+
+.herobtn {
+    background-image: url(../img/herobtn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0 !important;
+    background-color: transparent !important;
+    transition: 0.3s ease-in-out !important;
+}
+
+.herobtn:hover {
+    opacity: 0.8;
+}
+
+.herobtnspan {
+    color: transparent;
+}
+
+.vouch-card {
+    background: linear-gradient(84.59deg, #0A0A1E 4.31%, #171748 95.66%);
+    border: 0.001em solid #3838A9 !important;
+    border-radius: 20px;
+    height: 200px !important;
+}
+
+.vouches {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.vouch-person {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.vouch-person p {
+    color: #fff;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 11px
+}
+
+.vouch-content-container {
+    font-family: 'Poppins', 'sans-serif';
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.vouch-content {
+    color: #fff;
+
+    max-width: 15rem;
+}
+
+.vouches-header {
+    color: #fff;
+    font-family: 'Made';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pricing {
+    background-color: #0A0A1E !important;
+    min-height: 500px;
+}
+
+.pricing-content {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.pricing-header {
+    text-align: center;
+    color: white;
+    font-family: 'Made';
+}
+
+.pricing-card {
+    background-color: #0A0A1E !important;
+    border-color: #3838A9 !important;
+}
+
+.pricing-card-header {
+    background-color: #0C0C24 !important;
+}
+
+.pch-desc {
+    text-align: center;
+    font-family: 'Made';
+    color: white;
+    line-height: 1px;
+    margin-top: 25px;
+}
+
+.pch-desc p {
+    font-weight: lighter !important;
+}
+
+.price-header {
+    color: #fff;
+    font-family: 'Made';
+    font-size: 25px;
+}
+
+.price-perk {
+    color: #8080FF;
+    font-family: 'Made';
+    margin: 10px;
+    font-size: 20px;
+}
+
+.unsurebtn {
+    background-image: url(../img/reachoutbtn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0 !important;
+    background-color: transparent !important;
+    transition: 0.3s ease-in-out !important;
+}
+
+.unsurebtn:hover {
+    opacity: 0.8;
+}
+
+.payment {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.payment-card {
+    background: linear-gradient(98.98deg, #0A0A1E 6.3%, #141448 93.18%);
+    border: 1px solid #3838A9 !important;
+}
+
+.payment-header {
+    font-family: 'Made';
+}
+
+.payment-body {
+    color: white;
+    font-family: 'made';
+    opacity: 0.8;
+}
+
+.contact {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #0A0A1E;
+}
+
+.contact-card {
+    background-color: #0A0A1E !important;
+    border-color: #3838A9 !important;
+}
+
+.contact-header {
+    color: white;
+    font-family: 'Made';
+}
+
+.form-group {
+    padding: 0.5rem;
+}
+
+.submitbtn {
+    background-image: url(../img/submitbtn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0 !important;
+    background-color: transparent !important;
+    transition: 0.3s ease-in-out !important;
+}
+
+.submitbtn:hover {
+    opacity: 0.8;
+}
+
+.form-control {
+    background-color: #0A0A1E !important;
+    border-color: #3838A9 !important;
+    color: white !important;
+}
+
+.contact-body a {
+    color: white;
+    font-family: 'Made';
+    font-size: 25px;
+    opacity: 0.8;
+    transition: ease-in-out 0.2s !important;
+}
+
+.contact-body a:hover {
+    color: white;
+    opacity: 0.6;
+}
+
+.footera {
+    color: white;
+    font-family: 'Made';
+    transition: ease-in-out 0.2s;
+}
+.footera:hover{
+    color:white;
+    opacity: 0.8;
+}
+
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}

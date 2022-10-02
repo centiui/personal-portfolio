@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #0D0D29;
+}
+
+.nav-link {
+    background-color: transparent;
+    color: #FFFFFF !important;
+    font-family: 'Made';
+    font-weight: lighter;
+    transition: ease-in-out 0.2s !important;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
+}
