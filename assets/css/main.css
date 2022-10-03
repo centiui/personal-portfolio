@@ -37,6 +37,12 @@
     .pch-desc h3 {
         font-size: 70px !important;
     }
+    .pch-desc-main h3 {
+        font-size: 70px !important;
+    }
+    .headerimg {
+        width: 50% !important;
+    }
 }
 
 html {
@@ -73,6 +79,10 @@ body {
     opacity: 1;
 }
 
+.headerimg {
+    width: 25%;
+}
+
 
 .hero-item:nth-child(2) {
     transition-delay: 300ms;
@@ -82,12 +92,12 @@ body {
     transition-delay: 600ms;
 }
 
-.contactcrd:nth-child(2) {
-    transition-delay: 600ms;
-}
-
 .contactcrd:nth-child(3) {
     transition-delay: 300ms;
+}
+
+.contactcrd:nth-child(4) {
+    transition-delay: 600ms;
 }
 
 .pricing-child:nth-child(2) {
@@ -98,12 +108,12 @@ body {
     transition-delay: 400ms;
 }
 
-.pricing-child2:nth-child(2) {
-    transition-delay: 600ms;
-}
-
 .pricing-child2:nth-child(3) {
     transition-delay: 300ms;
+}
+
+.pricing-child2:nth-child(4) {
+    transition-delay: 600ms;
 }
 
 .hero-content {
@@ -279,7 +289,9 @@ body {
 }
 
 .pch-desc-main h3 {
-    color:#fff !important;
+    background: linear-gradient(90deg, #FFFFFF 0%, #f4fc9d 57.21%) !important;
+    background-clip:text !important;
+    color:transparent !important;
 }
 
 .price-header {

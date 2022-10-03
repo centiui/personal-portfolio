@@ -134,11 +134,12 @@
         <div class="container">
             <div class="pricing-content">
                 <div class="pricing-header">
-                    <img src="assets/img/pricingtitle.png" width="20%" class="img-fluid" alt="">
+                    <img src="assets/img/pricingtitle.png" class="headerimg" class="img-fluid" alt="">
                 </div>
                 <div class="row mt-4 justify-content-center">
                     <div class="col-xl-3 pricing-child hidden lefthidden">
                         <div class="card pricing-card">
+
                             <div class="pricing-card-header">
                                 <div class="pch-desc">
                                     <p>1-page landing<br>
@@ -160,6 +161,7 @@
                     </div>
                     <div class="col-xl-3 pricing-child hidden lefthidden">
                         <div class="card pricing-card">
+                            <div class="text-warning position-relative"><i class="fa-solid fa-crown fa-2x position-absolute top-0 start-100 translate-middle"></i></div>
                             <div class="card-header pricing-card-main">
                                 <div class="pch-desc-main">
                                     <p>Multi-page landing<br>
@@ -220,7 +222,7 @@
     </div>
     <div class="payment" id="payment">
         <div class="container payment justify-content-center">
-            <p class="text-center"> <img src="assets/img/pricingtitle.png" width="20%" alt=""></p>
+            <p class="text-center"> <img src="assets/img/pricingtitle.png" class="headerimg" alt=""></p>
             <div class="row d-flex justify-content-center hidden uphidden">
                 <div class="col-xl-8">
                     <div class="card payment-card">
@@ -234,24 +236,24 @@
         </div>
     </div>
     <div class="contact" id="contact">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
+        <div class="container d-flex">
+            <div class="row justify-content-center text-center">
                 <div class="contact-header text-center mb-4">
-                    <img src="assets/img/contactustitle.png" width="30%" alt="">
+                    <img src="assets/img/contactustitle.png" class="headerimg" alt="">
                 </div>
-                <div class="col-3 contactcrd hidden lefthidden">
+                <div class="col-xl-3 d-flex justify-content-center contactcrd hidden lefthidden">
                     <a href="https://t.me/centiui">
                         <div class="card contact-cardtl">
                         </div>
                     </a>
                 </div>
-                <div class="col-3 contactcrd hidden lefthidden">
+                <div class="col-xl-3 d-flex justify-content-center contactcrd hidden lefthidden">
                     <a href="https://discord.gg/NA8ye87gap">
                         <div class="card contact-carddc">
                         </div>
                     </a>
                 </div>
-                <div class="col-3 contactcrd hidden lefthidden">
+                <div class="col-xl-3 d-flex justify-content-center contactcrd hidden lefthidden">
                     <a href="https://github.com/centiui">
                         <div class="card contact-cardgt">
                         </div>
@@ -268,7 +270,6 @@
                     <div class="col-xl-4">
                         <img src="assets/img/CENTI.png" alt=""><br><br>
                         <a href="" class="footera" style="margin-right:5px;"><i class="fa-solid fa-2x fa-house"></i></a>
-                        <a href="https://www.instagram.com/centiui/" class="footera" style="margin-right:5px;"><i class="fa-brands fa-2x fa-instagram"></i></a>
                         <a href="https://t.me/neverlisten" class="footera" style="margin-right:5px;"><i class="fa-brands fa-2x fa-telegram"></i></a>
                         <a href="https://discord.gg/NA8ye87gap" class="footera"><i class="fa-brands fa-2x fa-discord"></i></a>
                     </div>
