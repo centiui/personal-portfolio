@@ -19,7 +19,7 @@
         text-align: center;
         background-color: #0D0D29;
         border-radius: 20px;
-        margin-top: 5px
+        margin-top: 5px;
     }
 
     .navbar-toggler {
@@ -50,7 +50,20 @@ html {
 }
 
 body {
+    
     background-color: var(--default-purple) !important;
+
+}
+
+.success-stories{
+    margin-top:50px;
+}
+
+.nav-link {
+    padding-left:20px !important;
+    padding-right:20px !important;
+    padding-top:15px !important;
+    padding-bottom:15px !important;
 }
 
 .hidden {
@@ -146,6 +159,7 @@ body {
     height: 650px;
 }
 
+
 .herobtn {
     background-image: url(../img/herobtn.png);
     background-size: contain;
@@ -212,10 +226,11 @@ body {
     background: linear-gradient(90deg, #FFFFFF 0%, #A3A3FF 57.21%);
     background-clip:text !important;
     color:transparent !important;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .pricing {
-    background-color: #0A0A1E !important;
     min-height: 500px;
 }
 
@@ -270,9 +285,11 @@ body {
 }
 
 .pch-desc h3 {
-    background: linear-gradient(90deg, #FFFFFF 0%, #6D6DD8 57.21%) !important;
-    background-clip:text !important;
-    color:transparent !important;
+    background: linear-gradient(90deg, #FFFFFF 0%, #A3A3FF 57.21%);
+    background-clip: text !important;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .pch-desc-main {
@@ -289,9 +306,11 @@ body {
 }
 
 .pch-desc-main h3 {
-    background: linear-gradient(90deg, #FFFFFF 0%, #f4fc9d 57.21%) !important;
-    background-clip:text !important;
-    color:transparent !important;
+    background: linear-gradient(90deg, #FFFFFF 0%, #A3A3FF 57.21%);
+    background-clip: text !important;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .price-header {
@@ -343,7 +362,6 @@ body {
 .contact {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #0A0A1E;
 }
 
 .contact-cardtl {
