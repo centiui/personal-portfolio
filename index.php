@@ -261,7 +261,7 @@
                     </a>
                 </div>
                 <div class="col-xl-3 d-flex justify-content-center contactcrd hidden lefthidden">
-                    <a href="https://discord.gg/NA8ye87gap">
+                    <a href="https://discord.gg/nauB2XAt9V">
                         <div class="card contact-carddc">
                         <img src="assets/img/discbg.png" alt="">
                         </div>
