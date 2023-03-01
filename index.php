@@ -256,18 +256,21 @@
                 <div class="col-xl-3 d-flex justify-content-center contactcrd hidden lefthidden">
                     <a href="https://t.me/centiui">
                         <div class="card contact-cardtl">
+                            <img src="assets/img/telegrambg.png" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="col-xl-3 d-flex justify-content-center contactcrd hidden lefthidden">
                     <a href="https://discord.gg/NA8ye87gap">
                         <div class="card contact-carddc">
+                        <img src="assets/img/discbg.png" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="col-xl-3 d-flex justify-content-center contactcrd hidden lefthidden">
                     <a href="https://github.com/centiui">
                         <div class="card contact-cardgt">
+                        <img src="assets/img/githubbg.png" alt="">
                         </div>
                     </a>
                 </div>
