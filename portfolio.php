@@ -34,7 +34,7 @@
 
                     <div class="collapse navbar-collapse" id="navbar">
                         <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
+                            <li class="nav-item">
                                 <a class="nav-link nav-anim " href="portfolio.php">Portfolio</a>
                             </li>
                             <li class="nav-item">
@@ -61,24 +61,26 @@
                         <div class="hero-content my-auto text-center">
                             <div class="hero-item  hidden uphidden">
                                 <div class="hero-item-content">
-                                    <h1>Custom websites, designs, and advertisements</h1>
+                                    <h1>Portfolio</h1>
                                 </div>
                             </div>
                             <div class="hero-item  hidden uphidden">
                                 <div class="hero-item-content">
-                                    <h4>Get professional services tailored for your business</h4>
+                                    <h4>A collection of our client's successful sites, UI/UX designs, & more</h4>
                                 </div>
                             </div>
-                            <div class="hero-item  hidden uphidden>
-                                <div class=" hero-item-content">
-                                <a href="portfolio.php" class="btn btn-primary herobtn btn-lg mt-2"><span class="herobtnspan">Learn How</span></a>
+                            <div class="hero-item  hidden uphidden">
+                                <div class="hero-item-content">
+                                    <a href="/" class="btn btn-primary returnbtn btn-lg mt-2"><span class="herobtnspan">Return Home</span></a>
+                                    <a href="#portfolio" class="btn btn-primary seeallbtn btn-lg mt-2"><span class="herobtnspan">Learn How</span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-            <div class="vouches" id="vouches">
+
+            <div class="portfolio">
                 <div class="container">
                     <div class="row d-flex justify-content-center">
                         <div class="vouches-header d-block">
@@ -132,117 +134,80 @@
                             </div>
                         </div>
                     </div>
-                    <div class="fade-row row d-flex justify-content-center">
-                        <div class="pricing-child3 col-xl-3 hidden lefthidden">
-                            <div class="card fade-card h-100">
+                    <div class="row d-flex justify-content-center hidden lefthidden">
+                        <div class="col-xl-9 mt-4">
+                            <div class="card port-card">
                                 <div class="card-body">
-
+                                    <div class="port-img"><img src="./assets/img/packeyesupdated.png" class="img-fluid port-img" alt=""></div>
+                                    <div class="port-desc">
+                                        <h2 class="port-text">Packeyes Inc (2023 Updated Design)</h2>
+                                        <h4 class="port-text">The Packeyes website redesigned for drop 2 (Q3-Q4 2023) of the Packeyes cannabis dispensary brand.</h4>
+                                        <h4 class="port-text"><a href="https://www.packeyes.com" class="text-white">Visit the Packeyes Website</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="pricing-child3 col-xl-3 hidden lefthidden">
-                            <div class="card fade-card">
-                                <div class="card-body">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-child3 col-xl-3 hidden lefthidden">
-                            <div class="card fade-card">
-                                <div class="card-body">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <a href="portfolio.php" class="btn btn-primary seeallbtn btn-lg mt-3" style="font-size: 30px;"><span class="herobtnspan text-center">See All</span></a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="pricing" id="pricing">
-                <div class="container">
-                    <div class="pricing-content">
-                        <div class="pricing-header">
-                            <img src="assets/img/pricingtitle.png" class="headerimg" class="img-fluid" alt="">
-                        </div>
-                        <div class="row mt-4 justify-content-center">
-                            <div class="col-xl-3 pricing-child hidden lefthidden">
-                                <div class="card pricing-card">
-
-                                    <div class="pricing-card-header">
-                                        <div class="pch-desc">
-                                            <p>1-page landing<br>
-                                            <h3 class="pchdesch3">$199</h3>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="price-header text-center">Website</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> Design Concept</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> 1-week delivery</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> 3 edits</div>
-                                        <div class="price-header text-center">Pricing</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> 50% Upfront</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> 50% Upon Finish</div>
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 pricing-child hidden lefthidden">
-                                <div class="card pricing-card">
-                                    <div class="text-warning position-relative"><i class="fa-solid fa-crown fa-2x position-absolute top-0 start-100 translate-middle"></i></div>
-                                    <div class="card-header pricing-card-main">
-                                        <div class="pch-desc-main">
-                                            <p>Multi-page landing<br>
-                                            <h3>$299</h3>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="price-header text-center">Website</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> Design Concept</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> 1-week delivery</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> 3 edits</div>
-                                        <div class="price-header text-center">Pricing</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> 50% Upfront</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> 50% Upon Finish</div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 pricing-child hidden lefthidden">
-                                <div class="card pricing-card">
-                                    <div class="pricing-card-header">
-                                        <div class="pch-desc">
-                                            <p>Need something else?<br>
-                                            <h3>?????</h3>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="price-header text-center">Website</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> Design Concept</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> ? delivery</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> ? edits</div>
-                                        <div class="price-header text-center">Pricing</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> 50% Upfront</div>
-                                        <div class="price-perk"><i class="fa-solid fa-arrow-right"></i> 50% Upon Finish</div>
-                                        
+                    <div class="row d-flex justify-content-center hidden lefthidden">
+                        <div class="col-xl-9 mt-4">
+                            <div class="card port-card">
+                                <div class="card-body">
+                                    <div class="port-img"><img src="./assets/img/octoearn.png" class="img-fluid port-img" alt=""></div>
+                                    <div class="port-desc">
+                                        <h2 class="port-text">OctoEarn</h2>
+                                        <h4 class="port-text">OctoEarn was a late 2022 design project for us to expand our knowledge on UI and functional UX design.</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row justify-content-center hidden uphidden">
-                            <div class="col-xl-9">
-                                <div class="pricing-card card mt-4">
-                                    <div class="card-body" style="padding:3.5rem;">
-                                        <div class="pricing-header d-flex justify-content-center">
-                                            <h1 class="unsuretext">Unsure which price bracket your business fits?</h1>
-                                        </div>
-                                        <div class="unsurebtns d-flex justify-content-center">
-                                            <a href="" class="btn btn-primary unsurebtn btn-lg mt-2"><span class="herobtnspan">Learn How</span></a>
-                                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center hidden lefthidden">
+                        <div class="col-xl-9 mt-4">
+                            <div class="card port-card">
+                                <div class="card-body">
+                                    <div class="port-img"><img src="./assets/img/glass.png" class="img-fluid port-img" alt=""></div>
+                                    <div class="port-desc">
+                                        <h2 class="port-text">Glass</h2>
+                                        <h4 class="port-text">Glass was a design project for us to expand our knowledge on the concept of glassmorphism.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center hidden lefthidden">
+                        <div class="col-xl-9 mt-4">
+                            <div class="card port-card">
+                                <div class="card-body">
+                                    <div class="port-img"><img src="./assets/img/cybrid.png" class="img-fluid port-img" alt=""></div>
+                                    <div class="port-desc">
+                                        <h2 class="port-text">Cybrid Security</h2>
+                                    <h4 class="port-text">This was a web project designed to help students access the internet freely on restricted devices. Development started Q4 2021 and ended Q1 2022. Development has since halted and the site has been discontinued temporarily due to lack of funds.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center hidden lefthidden">
+                        <div class="col-xl-9 mt-4">
+                            <div class="card port-card">
+                                <div class="card-body">
+                                    <div class="port-img"><img src="./assets/img/shoper.png" class="img-fluid port-img" alt=""></div>
+                                    <div class="port-desc">
+                                        <h2 class="port-text">Unnamed Store</h2>
+                                    <h4 class="port-text">This was a project proposed by somebody to make a shop website, specifically to sell accounts, keys, and other digital items.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center hidden lefthidden">
+                        <div class="col-xl-9 mt-4">
+                            <div class="card port-card">
+                                <div class="card-body">
+                                    <div class="port-img"><img src="./assets/img/defency.png" class="img-fluid port-img" alt=""></div>
+                                    <div class="port-desc">
+                                        <h2 class="port-text">Defency</h2>
+                                    <h4 class="port-text">Defency, the precursor to Cybrid Security, was a proposed idea to create a site to allow students to freely browse the internet on restricted devices.</h4>
                                     </div>
                                 </div>
                             </div>
@@ -250,21 +215,7 @@
                     </div>
                 </div>
             </div>
-            <div class="payment" id="payment">
-                <div class="container payment justify-content-center">
-                    <p class="text-center"> <img src="assets/img/pricingtitle.png" class="headerimg" alt=""></p>
-                    <div class="row d-flex justify-content-center hidden uphidden">
-                        <div class="col-xl-8">
-                            <div class="card payment-card">
-                                <div class="card-body text-center" style="padding: 2rem;">
-                                    <img src="assets/img/Cryptos.png" class="img-fluid mb-4" width="20%" alt="">
-                                    <h3 class="payment-body">We accept major cryptocurrencies such as Bitcoin, Ethereum, and Monero.</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <div class="contact" id="contact">
                 <div class="container d-flex">
                     <div class="row justify-content-center text-center">
@@ -296,31 +247,31 @@
                 </div>
             </div>
         </main>
-    <footer>
-        <div class="footer d-flex">
-            <div class="container">
-                <div class="row justify-content-center text-center">
-                    <div class="col-xl-4">
-                        <img src="assets/img/CENTI.png" alt=""><br><br>
-                        <a href="" class="footera" style="margin-right:5px;"><i class="fa-solid fa-2x fa-house"></i></a>
-                        <a href="https://t.me/neverlisten" class="footera" style="margin-right:5px;"><i class="fa-brands fa-2x fa-telegram"></i></a>
-                        <a href="javascript:void(0);" class="footera"><i class="fa-brands fa-2x fa-discord"></i></a>
+        <footer>
+            <div class="footer d-flex">
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-xl-4">
+                            <img src="assets/img/CENTI.png" alt=""><br><br>
+                            <a href="" class="footera" style="margin-right:5px;"><i class="fa-solid fa-2x fa-house"></i></a>
+                            <a href="https://t.me/neverlisten" class="footera" style="margin-right:5px;"><i class="fa-brands fa-2x fa-telegram"></i></a>
+                            <a href="javascript:void(0);" class="footera"><i class="fa-brands fa-2x fa-discord"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="loader-wrapper">
-            <span class="loader"><span class="loader-inner"></span></span>
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            $(window).on("load", function() {
-                $(".loader-wrapper").fadeOut("slow");
-            });
-        </script>
-        <script defer src="assets/js/app.js"></script>
-    </footer>
+            <div class="loader-wrapper">
+                <span class="loader"><span class="loader-inner"></span></span>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script>
+                $(window).on("load", function() {
+                    $(".loader-wrapper").fadeOut("slow");
+                });
+            </script>
+            <script defer src="assets/js/app.js"></script>
+        </footer>
     </div>
 </body>
 

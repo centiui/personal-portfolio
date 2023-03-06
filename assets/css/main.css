@@ -37,11 +37,22 @@
     .pch-desc h3 {
         font-size: 70px !important;
     }
+
     .pch-desc-main h3 {
         font-size: 70px !important;
     }
+
     .headerimg {
         width: 50% !important;
+    }
+
+
+
+    .pricing-child3:nth-child(1){
+        display: none;
+    }
+    .pricing-child3:nth-child(3){
+        display: none;
     }
 }
 
@@ -52,18 +63,18 @@ html {
 body {
     
     background-color: var(--default-purple) !important;
-
+   
 }
 
-.success-stories{
-    margin-top:50px;
+.success-stories {
+    margin-top: 50px;
 }
 
 .nav-link {
-    padding-left:20px !important;
-    padding-right:20px !important;
-    padding-top:15px !important;
-    padding-bottom:15px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
 }
 
 .hidden {
@@ -96,6 +107,9 @@ body {
     width: 25%;
 }
 
+.fade-row {
+    margin-top:10px !important;
+}
 
 .hero-item:nth-child(2) {
     transition-delay: 300ms;
@@ -128,7 +142,6 @@ body {
 .pricing-child2:nth-child(4) {
     transition-delay: 600ms;
 }
-
 .hero-content {
     color: #FFFFFF;
     font-family: 'Made';
@@ -141,9 +154,11 @@ body {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
@@ -169,6 +184,33 @@ body {
     transition: 0.3s ease-in-out !important;
 }
 
+.seeallbtn {
+    background-image: url(../img/seeall.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0 !important;
+    background-color: transparent !important;
+    transition: 0.3s ease-in-out !important;
+}
+
+.seeallbtn:hover {
+    opacity: 0.8;
+}
+
+.returnbtn {
+    background-image: url(../img/return.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0 !important;
+    background-color: transparent !important;
+    transition: 0.3s ease-in-out !important;
+}
+
+.returnbtn:hover {
+    opacity: 0.8;
+}
+
+
 .herobtn:hover {
     opacity: 0.8;
 }
@@ -184,7 +226,37 @@ body {
     height: 220px !important;
 }
 
+.port-card {
+    background-color: #0D0D29 !important;
+    box-shadow: inset 0px 0px 10px #0A0A1E;
+    border-radius: 20px;
+}
+
+.port-img {
+    border-radius: 20px;
+}
+
+.port-text {
+    font-family: 'Made', 'sans-serif';
+    color: white;
+    padding-top:15px
+}
+
+.fade-card {
+
+    background: linear-gradient(180deg, #0D0D2B 0%, rgba(13, 13, 43, 0) 100%);
+    box-shadow: inset 0px 0px 10px #0A0A1E;
+    border-radius: 20px;
+    background-color: transparent !important;
+    height: 160px !important;
+}
+
 .vouches {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.portfolio {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
@@ -217,17 +289,18 @@ body {
 }
 
 .vouches-header {
+    margin-left: auto;
+    margin-right: auto;
     color: #fff;
     font-family: 'Made';
     text-align: center;
-    display: flex;
-    justify-content: center;
     margin-bottom: 20px;
     background: linear-gradient(90deg, #FFFFFF 0%, #A3A3FF 57.21%);
-    background-clip:text !important;
-    color:transparent !important;
+    background-clip: text;
+    color: transparent;
     -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .pricing {
@@ -251,13 +324,13 @@ body {
     border-color: transparent !important;
     border-radius: 15px !important;
     box-shadow: inset 0px 0px 10px #0A0A1E;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 .pricing-card-header {
     background-color: #0D0D2B !important;
     border-radius: 15px;
-    margin:4px;
+    margin: 4px;
 }
 
 .pricing-card-main {
@@ -275,8 +348,8 @@ body {
 
 .unsuretext {
     background: linear-gradient(90deg, #FFFFFF 0%, #A3A3FF 57.21%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .pch-desc p {
@@ -383,6 +456,7 @@ body {
     height: 200px !important;
     width: 300px !important;
 }
+
 .contact-cardgt {
     background-image: url(/assets/img/githubbg.png);
     background-color: transparent !important;
@@ -439,8 +513,9 @@ body {
     font-family: 'Made';
     transition: ease-in-out 0.2s;
 }
-.footera:hover{
-    color:white;
+
+.footera:hover {
+    color: white;
     opacity: 0.8;
 }
 
