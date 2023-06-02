@@ -14,7 +14,9 @@
     src: url("../fonts/madereg.otf");
 }
 
-@media only screen and (max-width: 770px) {
+
+
+@media only screen and (max-width:1210px) {
     .nav-link {
         text-align: center;
         background-color: #0D0D29;
@@ -32,6 +34,7 @@
 
     .vouch-card {
         margin-top: 10px;
+        height: 275px !important;
     }
 
     .pch-desc h3 {
@@ -48,22 +51,25 @@
 
 
 
-    .pricing-child3:nth-child(1){
+    .pricing-child3:nth-child(1) {
         display: none;
     }
-    .pricing-child3:nth-child(3){
+
+    .pricing-child3:nth-child(3) {
         display: none;
     }
 }
+
+
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    
+
     background-color: var(--default-purple) !important;
-   
+    overflow-x: hidden;
 }
 
 .success-stories {
@@ -108,7 +114,7 @@ body {
 }
 
 .fade-row {
-    margin-top:10px !important;
+    margin-top: 10px !important;
 }
 
 .hero-item:nth-child(2) {
@@ -142,6 +148,7 @@ body {
 .pricing-child2:nth-child(4) {
     transition-delay: 600ms;
 }
+
 .hero-content {
     color: #FFFFFF;
     font-family: 'Made';
@@ -191,6 +198,8 @@ body {
     border: 0 !important;
     background-color: transparent !important;
     transition: 0.3s ease-in-out !important;
+    padding: 0 !important;
+    width: 93px !important;
 }
 
 .seeallbtn:hover {
@@ -198,12 +207,14 @@ body {
 }
 
 .returnbtn {
-    background-image: url(../img/return.png);
+    background-image: url(../img/returnbtn.png);
     background-size: contain;
     background-repeat: no-repeat;
     border: 0 !important;
     background-color: transparent !important;
     transition: 0.3s ease-in-out !important;
+    padding: 0 !important;
+    width: 93px !important;
 }
 
 .returnbtn:hover {
@@ -223,7 +234,7 @@ body {
     background-color: #0D0D29 !important;
     box-shadow: inset 0px 0px 10px #0A0A1E;
     border-radius: 20px;
-    height: 220px !important;
+    height: 220px;
 }
 
 .port-card {
@@ -239,7 +250,7 @@ body {
 .port-text {
     font-family: 'Made', 'sans-serif';
     color: white;
-    padding-top:15px
+    padding-top: 15px
 }
 
 .fade-card {
@@ -438,9 +449,7 @@ body {
 }
 
 .contact-cardtl {
-    background-image: url(/assets/img/telegrambg.png);
     background-color: transparent !important;
-    background-size: cover;
     box-shadow: inset 0px 0px 10px #0A0A1E;
     border: 0 !important;
     height: 200px !important;
@@ -448,9 +457,7 @@ body {
 }
 
 .contact-carddc {
-    background-image: url(/assets/img/discordbg.png);
     background-color: transparent !important;
-    background-size: cover;
     box-shadow: inset 0px 0px 10px #0A0A1E;
     border: 0 !important;
     height: 200px !important;
@@ -458,9 +465,7 @@ body {
 }
 
 .contact-cardgt {
-    background-image: url(/assets/img/githubbg.png);
     background-color: transparent !important;
-    background-size: cover;
     box-shadow: inset 0px 0px 10px #0A0A1E;
     border: 0 !important;
     height: 200px !important;

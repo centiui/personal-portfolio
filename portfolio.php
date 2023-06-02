@@ -38,16 +38,16 @@
                                 <a class="nav-link nav-anim " href="portfolio.php">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-anim " href="#vouches">Vouches</a>
+                                <a class="nav-link nav-anim " href="/index.php#vouches">Vouches</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-anim " href="#pricing">Pricing</a>
+                                <a class="nav-link nav-anim " href="/index.php#pricing">Pricing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-anim " href="#payment">Payment Options</a>
+                                <a class="nav-link nav-anim " href="/index.php#payment">Payment Options</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-anim " href="#contact">Contact</a>
+                                <a class="nav-link nav-anim " href="/index.php#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
